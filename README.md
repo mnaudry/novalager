@@ -21,9 +21,13 @@ copy content of seeder_files in root to storage/app/public
 
 content of storage are not copy to git repository .gitignore
 
+# Add a link between storage and public
+
+php artisan storage:link
+
 # Add  vuejs sass moment-timezone vue-router vitejs/plugin-vue
 
-# change vite.config  for vue
+# Add vite.config  for vue
 
 npm i
 
@@ -31,6 +35,6 @@ npm i
 
 npm run dev
 
-#Start laravel web server 
+# Start laravel web server 
 
 php artisan serve 
