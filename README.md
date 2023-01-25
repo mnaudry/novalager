@@ -2,18 +2,34 @@
 ## About Novalager
 step by step configuration laravel  and vue.js  novaleger
 
-#migration 
+# Migration 
 
 We need doctrine dbal
 
 composer require  doctrine/dbal
 
-#Execute migration
+# Execute migration
 
 php artisan migrate
 
-#Seeders
+# Seeders
 
+php artisan db:seed
+
+
+copy content of seeder_files in root to storage/app/public 
+
+content of storage are not copy to git repository .gitignore
+
+# Add  vuejs sass moment-timezone vue-router vitejs/plugin-vue
+
+# change vite.config  for vue
+
+npm i
+
+# Run a dev  build
+
+npm run dev
 
 #Start laravel web server 
 
